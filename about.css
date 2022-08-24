@@ -13,7 +13,6 @@
     background-size: cover;
     height: 100vh;
     display: grid;
-    background-attachment: fixed;
 }
 
 .about-banner-container
@@ -231,7 +230,6 @@
     background: url('images/back-2.png');
     padding: 70px 0px;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .about-specialty-section > h3
