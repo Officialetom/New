@@ -19,11 +19,6 @@ toggleNight.addEventListener('click', () => {
     footer.style.color = "white";
     image.src = "images/LogoBl.png";
     image2.src = "images/LogoBl.png";
-    footer.style.backgroundColor = "black";
-    footer.style.color = "white";
-    image.src = "images/LogoBl.png";
-    image2.src = "images/LogoBl.png";
-    Link.style.color = "white";
 })
 
 toggleDay.addEventListener('click', () => {
