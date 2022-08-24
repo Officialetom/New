@@ -266,7 +266,6 @@
     background-size: cover;
     height: 85vh;
     display: grid;
-    background-attachment: fixed;
 }
 
 .message-container
@@ -309,7 +308,6 @@
     background-size: cover;
     height: 100vh;
     display: grid;
-    background-attachment: fixed;
 }
 
 .banner-container
@@ -603,7 +601,6 @@
     background: url('images/back-2.png');
     padding: 70px 0px;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .specialty-section > h3
