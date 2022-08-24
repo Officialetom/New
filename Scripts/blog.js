@@ -1,10 +1,10 @@
 const toggleNight = document.getElementById('toggleNight')
 const toggleDay = document.getElementById('toggleDay')
-const navBar = document.getElementById('navContain')
-const navBarCon = document.getElementById('navbar')
-const footer = document.getElementById('footer')
-const image = document.getElementById('Img')
-const image2 = document.getElementById('Imge')
+const navBar = document.getElementById('navContain-blog')
+const navBarCon = document.getElementById('navbar-blog')
+const footer = document.getElementById('footer-blog')
+const image = document.getElementById('Img-blog')
+const image2 = document.getElementById('Imge-blog')
 
 toggleNight.addEventListener('click', () => {
     navBarCon.style.backgroundColor = 'black';
