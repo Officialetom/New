@@ -276,7 +276,6 @@
 
 .about-specialty-info:hover
 {
-   transform: translateY(-20px);
    cursor: pointer;
 }
 
