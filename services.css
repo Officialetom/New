@@ -1,0 +1,22 @@
+.service-top
+{
+    background: url('images/backk-2.png');
+    padding: 50px 20px;
+    text-align: center;
+    background-size: cover;
+}
+
+.service-top h3
+{
+    margin-top: 85px;
+    margin-bottom: 80px;
+    font-size: 45px;
+}
+
+@media (max-width: 350px)
+{
+    .service-top h3
+    {
+        font-size: 35px;
+    }
+}

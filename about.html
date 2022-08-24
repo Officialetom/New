@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="Scripts/java.js" defer></script>
+<script src="scripts/about.js" defer></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>About</title>
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container" id="navContain">
+            <div class="navbar-logo">
+                <img src="images/JOCOM WEBSITE LOGO.png" id="Img" alt="">
+            </div>
+            <div class="toggle-night" id="toggleNight">
+                <i class="fas fa-moon fa-2x"></i>
+            </div>
+            <div class="toggle-day" id="toggleDay">
+                <i class="far fa-sun fa-2x"></i>
+            </div>
+            <a id="toggle" class="toggle-btn">
+                <span class="btn btn-span" id="btn-span"></span>
+                <span class="btn btn-span" id="btn-span"></span>
+                <span class="btn btn-span" id="btn-span"></span>
+            </a>
+            <div class="navbar-links">
+                <ul class="list-ul">
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="#" id="link" class="active">About</a></li>
+                    <li><a href="services.html" id="link">Services</a></li>
+                    <li><a href="#facing-section" class="contact-btn">Contact</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+<!------------------------------ Banner Section------------------------------->
+<div class="about-banner-section">
+    <h2>About Us</h2>
+    <div class="about-banner-container">
+        <div class="about-banner-info">
+            <h3>Overview of our<br>Company</h3>
+        <p>We are an independently owned, strategice creative <br> 
+            Company, forever curious and ready to transform the way business is done</p>
+        </div>
+        <div class="about-banner-info">
+            <img src="images/undraw_co-working_re_w93t.svg" alt="work-image" >
+        </div>
+    </div>
+</div>
+<!-------------------------------The Process Section-------------------------->
+<div class="about-process-section" id="process">
+    <div class="about-process-container">
+        <div class="about-process-info">
+            <img src="images/undraw_designer_re_5v95.svg" alt="process-info-2">
+        </div>
+        <div class="about-process-info">
+            <h3>We are here<br> To always help you</h3>
+            <p>With our 24hr Customer services,<br> reliable workers.
+                We have 98% of job satisfaction.
+            </p>
+        </div>
+    </div>
+</div>
+<!-------------------------Specialty Section---------------------------->
+<div class="about-specialty-section">
+    <h3>Our Specialty</h3>
+    <div class="about-specialty-container">
+        <div class="about-specialty-info">
+            <img src="images/undraw_personal_file_re_5joy.svg" alt="">
+            <h4>Quick Response</h4>
+            <p>24hr activities ensures you get a quick response on any related task</p>
+        </div>
+        <div class="about-specialty-info">
+            <img src="images/undraw_voice_control_ofo1.svg" alt="">
+            <h4>Good Communication</h4>
+            <p>Excellent communication skills to help enhance customer's relationship<p>
+        </div>
+        <div class="about-specialty-info">
+            <img src="images/undraw_personal_file_re_5joy.svg" alt="">
+            <h4>Customer Satisfaction</h4>
+            <p>98% accuracy and speed will ensure we have 100% Customer satisfaction</p>
+        </div>
+    </div>
+</div>
+<!----------------------Facing Problems Section -------------------->
+    <div class="facing-section" id="facing-section">
+        <h3>Facing any problem? <br> Let's get in touch now</h3>
+    <div class="facing-container">
+    <form action="https://formsubmit.co/ubanaetom@email.com">
+    <div class="form-div divide">
+        <div class="divide-1">
+            <label for="firstname" class="fname">First Name </label><br>
+        <input type="text" name="firstname" placeholder="Etom" required>
+        </div>
+        <div class="divide-1">
+            <label for="lastname" class="lname">Last Name </label><br>
+        <input type="text" name="lastname" placeholder="Ubana" required>
+        </div>
+        
+    </div>
+    <div class="form-div">
+        <label for="email" class="e-mail">Your Email</label><br>
+        <input type="email" name="email" placeholder="example@gmail.com" required>
+    </div>
+    <div class="form-div">
+        <label for="selection" class="problem">Which problem are you facing?</label><br>
+        <select name="selection" id="selection" required>
+            <option value="select">Select one</option>
+            <option value="typing">Typing</option>
+            <option value="logoDesign">Logo Design</option>
+            <option value="dataEntry">Data Entry</option>
+            <option value="logoMockup">Logo Mockup</option>
+            <option value="flyersDesign">Flyers Design</option>
+            <option value="websiteCreate">Website Creation</option>
+        </select>
+    </div>
+    <div class="form-div">
+        <label for="message">Type your message</label><br>
+        <textarea name="message" id="textarea" placeholder="Message..." required></textarea>
+    </div>
+    <input type="hidden" name="_next" value="thankyou.html">
+    <input type="hidden" name="_captcha" value="false">
+    <button type="submit" class="submit">Submit</button>
+    </form>
+    </div>
+    </div>
+<!--------------------------------Footer Section-------------------------------->
+<footer class="footer-section" id="footer">
+    <img src="images/JOCOM WEBSITE LOGO.png" id="Imge" alt="Company Logo">
+<div class="footer-container">
+    <div class="footer-info">
+        <h5>Contact Us</h5>
+        <ul>
+            <li><i class="fas fa-phone"></i> 07038785516</li>
+            <li><i class="fas fa-map-marker-alt"></i> No. 1 Ijom, Ugep</li>
+            <li><i class="fas fa-envelope-open-text"></i> ubanaetom@gmail.com</li>
+        </ul>
+    </div>
+    <div class="footer-info">
+        <h5>Our Company</h5>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="#facing-section">Contact</a></li>
+        </ul>
+    </div>
+    <div class="footer-info">
+        <h5>Social Contacts</h5>
+        <ul>
+            <li><a href="https://www.facebook.com/profile.php?id=100079487195489">FaceBook</a></li>
+            <li><a href="https://wa.link/k5gp1f">WhatsApp</a></li>
+            <li><a href="twitter.com/@UbanaEtom">Twitter</a></li>
+        </ul>
+    </div>
+    <div class="footer-info">
+        <h5>Address</h5>
+        <p>No. 1 Ijom, Hospital Road - Unebu, Opposite Dr. Iwara's Clinic, Ugep</p>
+        <ul>
+            <li><a href="https://www.facebook.com/profile.php?id=100079487195489"><i class="fab fa-facebook fa-2x"></i></a></li>
+            <li><a href="https://wa.link/k5gp1f"><i class="fab fa-whatsapp fa-2x"></i></a></li>
+            <li><a href="twitter.com/@UbanaEtom"><i class="fab fa-twitter fa-2x"></i></a></li>
+        </ul>
+    </div>
+</div>
+</footer>
+<div class="copyright-div">
+<p>Copyright @ 2022 <span>JO</span><span class="span">COM</span></p>
+</div>
+</body>
+</html>
